@@ -4,7 +4,7 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://3.236.129.45:8081/repository/ebay-npm-repo/"
+    "registry": "http://192.168.56.99:8000/repository/nodejs-npm-demo/"
   },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LandmakTechnology/nodejs-application"
+    "url": "https://github.com/yvalcorp/nodejs-application"
   },
   "keywords": [
     "node",
-    "Landmark Technologies",
+    "Yvalcorp",
     "express"
   ],
-  "author": "Simon Legah",
-  "license": "MyLandmarkTech"
+  "author": "Paul Valery",
+  "license": "yvalcorp"
 }
