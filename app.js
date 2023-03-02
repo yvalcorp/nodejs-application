@@ -17,13 +17,13 @@ console.log(__dirname);
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
 
 }).listen(9009);
-console.log(__dirname+"/images/mylandmarklogo.png");
+console.log(__dirname+"/images/mylandmgo.png");
 */
-app.get('/landmarktechnologies', function(request, response) {
-    //response.send("<h2><center>Welcome to Node JS app develpoed by MyLandmarkTech</h2>");
+app.get('/yvalcorptechnologies', function(request, response) {
+    //response.send("<h2><center>Welcome to Node JS app developed by Yvalcorp</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Landmark Technologies. Please Contact +14372152483 for more information or send an email to info@mylandmarktech.com <center></h2>" );
+    response.write("<h2><center>Welcome to Yvalcorp Technologies<center></h2>" );
     response.end();
     
   })
@@ -44,9 +44,9 @@ app.get("/html", function(req,res){
         //res.type('application/json');
         //res.json({'name': 'S. Legah'});
         res.send({
-		'name': 'Landmark Technologies',
+		'name': 'Yvalcorp Technologies',
 		'technology': 'DevOps',
-		'contact' : '+14372152483',
+		'contact' : '+1 832 ',
 		'email': 'info@mylandmarktech.com'
 	            });
         
